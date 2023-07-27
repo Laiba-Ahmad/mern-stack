@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Registration Form</title>
+  </head>
+  <body>
+    <center>
+      <form action="./form.html" method="get">
+        <table
+          border="1"
+          cellpadding="8px"
+          style="padding: 1px; margin: 1%; text-align: center; width: 20%"
+        >
+          <tr>
+            <td align="center" colspan="2"><h2>Registration Form</h2></td>
+          </tr>
+          <tr>
+            <td>
+              <label for="sn">Student Name</label>
+            </td>
+            <td>
+              <input
+                required
+                type="text"
+                id="sn"
+                name="sn"
+                style="width: 160px"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="fn">Father Name</label></td>
+            <td>
+              <input
+                required
+                type="text"
+                id="fn"
+                name="fn"
+                style="width: 160px"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="mn">Mother Name</label></td>
+            <td>
+              <input
+                required
+                type="text"
+                id="mn"
+                name="mn"
+                style="width: 160px"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="dob">Date of Birth</label></td>
+            <td>
+              <input
+                required
+                type="date"
+                id="dob"
+                name="dob"
+                style="width: 160px"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="m">Gender</label></td>
+            <td>
+              <label for="m">Male</label>
+              <input type="radio" id="m" name="gen" value="m" />
+              <label for="f">Female</label>
+              <input type="radio" id="f" name="gen" value="f" />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="eid">Email ID</label></td>
+            <td>
+              <input required type="email" id="eid" style="width: 160px" />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="mob">Mobile No.</label></td>
+            <td>
+              <input
+                required
+                type="number"
+                id="mob"
+                name="mob"
+                style="width: 160px"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="Address">Address</label></td>
+            <td>
+              <textarea
+                required
+                name="Address"
+                id="Address"
+                cols="20"
+                rows="2"
+              ></textarea>
+            </td>
+          </tr>
+          <tr>
+            <td><label for="State">State</label></td>
+            <td>
+              <input
+                required
+                type="text"
+                id="State"
+                name="State"
+                style="width: 160px"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="City">City</label></td>
+            <td>
+              <input
+                required
+                type="text"
+                id="City"
+                name="City"
+                style="width: 160px"
+              />
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>
+              <input type="submit" />
+            </td>
+          </tr>
+        </table>
+      </form>
+    </center>
+  </body>
+</html>
